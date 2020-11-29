@@ -1,6 +1,67 @@
 body {
     display: flex;
+    height: 100vh;
     justify-content: center;
     align-items: center;
     background: hsl(210, 46%, 95%)
+}
+
+#container {
+    display: grid;
+    max-width: 1440px;
+    width: 720px;
+    max-height: 100vh;
+    height: 280px;
+    margin: auto;
+    grid-template-columns: 1fr 1.75fr;
+    grid-template-rows: 100%;
+    grid-template-areas: "image text";
+}
+
+#image {
+    padding: 10px;
+    grid-area: image;
+}
+
+#drawers {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+#text {
+    padding: 10px;
+    grid-area: text;
+    display: grid;
+    grid-template-columns: 0.25fr 1.5fr 0.25fr;
+    grid-template-rows: 40% 40% 10% 10%;
+    grid-template-areas: "heading heading heading" "description description description" "avatar name share" "avatar date share";
+}
+
+#heading {
+    grid-area: heading;
+}
+
+#description {
+    grid-area: description;
+}
+
+#avatar {
+    grid-area: avatar;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    object-position: center top;
+}
+
+#share {
+    grid-area: share;
+}
+
+#name {
+    grid-area: name;
+}
+
+#date {
+    grid-area: date;
 }
