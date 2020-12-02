@@ -54,12 +54,14 @@ body {
 #description {
     grid-area: description;
     color: hsl(214, 17%, 51%);
+    padding-bottom: 15px;
 }
 
 #avatar {
     grid-area: avatar;
     object-fit: contain;
     width: 100%;
+    border-radius: 50%;
 }
 
 #share {
@@ -82,9 +84,11 @@ body {
     grid-area: name;
     color: hsl(217, 19%, 35%);
     font-weight: 700;
+    padding-left: 10px;
 }
 
 #date {
     grid-area: date;
     color: hsl(214, 17%, 51%);
+    padding-left: 10px;
 }
