@@ -48,10 +48,12 @@ body {
     grid-area: heading;
     font-weight: 700;
     font-size: 1.5em;
+    color: hsl(217, 19%, 35%);
 }
 
 #description {
     grid-area: description;
+    color: hsl(214, 17%, 51%);
 }
 
 #avatar {
@@ -68,8 +70,11 @@ body {
 
 #name {
     grid-area: name;
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
 }
 
 #date {
     grid-area: date;
+    color: hsl(214, 17%, 51%);
 }
