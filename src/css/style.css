@@ -9,6 +9,8 @@ body {
 }
 
 #container {
+    border-radius: 5px;
+    overflow: hidden;
     display: grid;
     max-width: 1440px;
     width: 720px;
@@ -25,9 +27,10 @@ body {
 }
 
 #drawers {
-    /* object-fit: contain; */
-    width: 100%;
+    object-fit: cover;
+    width: 125%;
     height: 100%;
+    object-position: left;
 }
 
 #text {
