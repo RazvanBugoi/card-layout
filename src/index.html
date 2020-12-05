@@ -7,6 +7,7 @@
     <title>Card Layout</title>
     <link href="css/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
 </head>
 
@@ -22,8 +23,11 @@
             <p id="name">Michelle Appleton</p>
             <p id="date">28 June 2020</p>
             <div id="share">
-                <img id="arrow" src="images/icon-share.svg" alt="share-icon">
-                <div id="pop-up">
+                <button id="share-btn">
+                    <img id="arrow" src="images/icon-share.svg" alt="share-icon">
+                </button>
+
+                <div id="pop-up" class="animate__lightSpeedInLeft">
                     <p id="share-text">SHARE</p>
                     <img id="fb-img" src="images/icon-facebook.svg">
                     <img id="twitter-img" src="images/icon-twitter.svg">

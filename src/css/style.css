@@ -75,6 +75,19 @@ body {
     border-radius: 50%;
 }
 
+#share-btn {
+    border: none;
+}
+
+#share-btn:focus,
+ :active {
+    outline: none;
+}
+
+#share-btn:hover {
+    cursor: pointer;
+}
+
 #arrow {
     width: 40%;
     object-fit: contain;
@@ -94,7 +107,7 @@ body {
 }
 
 #pop-up {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
