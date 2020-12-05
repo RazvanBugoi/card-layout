@@ -97,11 +97,35 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
     height: 50px;
-    width: 200px;
-    background-color: blue;
+    width: 225px;
+    background-color: hsl(217, 19%, 35%);
+    position: absolute;
+    bottom: 45%;
 }
 
 #share-text {
     display: inline-block;
+    padding: 0 10px 0 5px;
+    color: hsl(212, 23%, 69%);
+    font-weight: 500;
+    letter-spacing: 0.35em;
+}
+
+#fb-img,
+#twitter-img,
+#pinterest-img {
+    padding: 0 5px 0 5px;
+}
+
+#triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 25px solid;
+    color: hsl(217, 19%, 35%);
+    position: absolute;
+    top: 45px;
 }
