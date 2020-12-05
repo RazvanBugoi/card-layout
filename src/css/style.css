@@ -92,3 +92,16 @@ body {
     color: hsl(214, 17%, 51%);
     padding-left: 10px;
 }
+
+#pop-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    background-color: blue;
+}
+
+#share-text {
+    display: inline-block;
+}
