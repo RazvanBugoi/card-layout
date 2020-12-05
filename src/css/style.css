@@ -142,3 +142,7 @@ body {
     position: absolute;
     top: 45px;
 }
+
+a {
+    display: flex;
+}
