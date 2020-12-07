@@ -117,6 +117,7 @@ body {
     background-color: hsl(217, 19%, 35%);
     position: absolute;
     bottom: 45%;
+    grid-area: popup;
 }
 
 #share-text {
@@ -147,3 +148,20 @@ body {
 a {
     display: flex;
 }
+
+
+/* @media only screen and (max-width:426px) {
+    #container {
+        display: grid;
+        height: 80vh;
+        width: 90%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 40% 20% 25% 15%;
+        grid-template-areas: "image" "heading" "description" "pop-up";
+    }
+    #drawers {}
+
+    #pop-up {
+        display: flex;
+    }
+} */
