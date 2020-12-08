@@ -11,5 +11,5 @@ btn.onclick = popup;
 
 function popup() {
     const popup = document.getElementById("pop-up");
-    popup.style.display = "flex";
+    popup.classList.toggle("show-me");
 }

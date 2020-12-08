@@ -108,7 +108,8 @@ body {
 }
 
 #pop-up {
-    display: none;
+    display: flex;
+    visibility: hidden;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
@@ -118,6 +119,10 @@ body {
     position: absolute;
     bottom: 45%;
     grid-area: popup;
+}
+
+.show-me {
+    visibility: visible !important;
 }
 
 #share-text {
